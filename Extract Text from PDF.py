@@ -3,9 +3,7 @@ import fitz # To extract Text from PDF File
 import os
 
 # Extracting Texts from PDF
-# file_path = "Files\\SenPDFTable.pdf"
-file_path = "Files\\SenPDFText.pdf"
-# file_path = "C:\\Users\\SensClass\\Desktop\\Python Projects\\Scrape\\Files\\SenPDFText.pdf"
+# file_path = "Files\\SenPDFText.pdf"
 
 if os.path.exists(file_path):
  with fitz.open(file_path) as pdf:
